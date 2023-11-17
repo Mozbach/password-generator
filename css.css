@@ -22,8 +22,8 @@ h2 {
 }
 
 .container {
-    background-color: silver;
-    box-shadow: 1px 2px 5px black;
+    background-color: whitesmoke;
+    box-shadow: 1px 2px 5px silver;
     border-radius: 5px;
     padding: 20px;
     width: 350px;
@@ -31,32 +31,40 @@ h2 {
 }
 
 .result-container {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: #818589;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     position: relative;
-    font-size: 18px;
+    font-size: 14px;
     letter-spacing: 1px;
     padding: 12px;
     height: 50px;
     width: 100%;
-
+    border-radius: 5px;;
 }
 
 
 .result-container #result {
     word-wrap: break-word;
+    color: whitesmoke;
     max-width: calc(100% - 40px);
 }
 
 .btn {
     border: none;
-    background-color: silver;
-    color: gray;
+    background-color: gray;
+    color: whitesmoke;
+    border-radius: 5px;
     font-size: 16px;
     padding: 8px 12px;
     cursor: pointer;
+    transition: .5s all;
+    box-shadow: 0px 0px 5px #36454F;
+}
+
+.btn:hover {
+    background: #36454F;
 }
 
 .btn-large {
